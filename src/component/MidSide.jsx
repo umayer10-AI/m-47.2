@@ -8,7 +8,6 @@ import Link from 'next/link';
 const MidSide = async ({id}) => {
 
     const data = await getNews(id)
-    // console.log(data)
 
     return (
         <div className="flex flex-col gap-5">
