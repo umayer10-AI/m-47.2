@@ -5,8 +5,7 @@ import React, { useContext } from 'react';
 
 const CategoryList = ({p,id}) => {
 
-    const {s,setS} = useContext(Data)
-    // console.log(s)
+    const {setS} = useContext(Data)
 
     return (
         <div>
